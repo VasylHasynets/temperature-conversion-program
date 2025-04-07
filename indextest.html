@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styletest.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <h1>Temperature <span id="word2">conversion:</span></h1>
+        <input type="number" id="textBox" value="0"><br>
+        
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit">Celsius ➡️ Fehrenheit</label><br>
+
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius">Fehrenheit ➡️ Celsius</label><br>
+
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="myP"></p>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
